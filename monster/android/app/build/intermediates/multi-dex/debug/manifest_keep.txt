@@ -1,0 +1,2 @@
+# Referenced at G:\monster-truck\monster\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:35
+-keep class android.support.multidex.MultiDexApplication { <init>(...); }

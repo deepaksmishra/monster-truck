@@ -1,0 +1,328 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\misc.xml
+* .idea\workspace.xml
+* Makefile
+* ant.properties
+* app\
+* app\build.gradle
+* app\libs\
+* app\libs\dagger-1.2.2.jar
+* app\libs\javax.inject-1.jar
+* app\libs\nineoldandroids-2.4.0.jar
+* app\libs\support-v4-19.0.1.jar
+* app\lint.xml
+* app\src\
+* app\src\main\
+* app\src\main\AndroidManifest.xml
+* app\src\main\aidl\
+* app\src\main\aidl\com\
+* app\src\main\aidl\com\android\
+* app\src\main\aidl\com\android\vending\
+* app\src\main\aidl\com\android\vending\billing\
+* app\src\main\aidl\com\android\vending\billing\IInAppBillingService.aidl
+* app\src\main\assets\
+* app\src\main\assets\Thumbs.db
+* app\src\main\assets\data\
+* app\src\main\assets\data\PTModelAnimation.0.attributes.xml
+* app\src\main\assets\data\PTModelAnimation.0.connections.xml
+* app\src\main\assets\data\PTModelAssetCharacter.0.attributes.xml
+* app\src\main\assets\data\PTModelAssetCharacter.0.connections.xml
+* app\src\main\assets\data\PTModelAssetObstacle.0.attributes.xml
+* app\src\main\assets\data\PTModelAssetObstacle.0.connections.xml
+* app\src\main\assets\data\PTModelAssetPowerup.0.attributes.xml
+* app\src\main\assets\data\PTModelAssetPowerup.0.connections.xml
+* app\src\main\assets\data\PTModelAtlas.0.attributes.xml
+* app\src\main\assets\data\PTModelAtlas.0.connections.xml
+* app\src\main\assets\data\PTModelComponentCharacterGameplaySettings.0.attributes.xml
+* app\src\main\assets\data\PTModelComponentCharacterGameplaySettings.0.connections.xml
+* app\src\main\assets\data\PTModelComponentDamage.0.attributes.xml
+* app\src\main\assets\data\PTModelComponentDamage.0.connections.xml
+* app\src\main\assets\data\PTModelComponentDeletionThreshold.0.attributes.xml
+* app\src\main\assets\data\PTModelComponentDeletionThreshold.0.connections.xml
+* app\src\main\assets\data\PTModelComponentForcedMovement.0.attributes.xml
+* app\src\main\assets\data\PTModelComponentForcedMovement.0.connections.xml
+* app\src\main\assets\data\PTModelComponentHealth.0.attributes.xml
+* app\src\main\assets\data\PTModelComponentHealth.0.connections.xml
+* app\src\main\assets\data\PTModelComponentSpawner.0.attributes.xml
+* app\src\main\assets\data\PTModelComponentSpawner.0.connections.xml
+* app\src\main\assets\data\PTModelComponentWakeup.0.attributes.xml
+* app\src\main\assets\data\PTModelComponentWakeup.0.connections.xml
+* app\src\main\assets\data\PTModelFont.0.attributes.xml
+* app\src\main\assets\data\PTModelFont.0.connections.xml
+* app\src\main\assets\data\PTModelGeneralSettings.0.attributes.xml
+* app\src\main\assets\data\PTModelGeneralSettings.0.connections.xml
+* app\src\main\assets\data\PTModelLevelSection.0.attributes.xml
+* app\src\main\assets\data\PTModelLevelSection.0.connections.xml
+* app\src\main\assets\data\PTModelLinker.0.attributes.xml
+* app\src\main\assets\data\PTModelLinker.0.connections.xml
+* app\src\main\assets\data\PTModelObjectAssetCharacter.0.attributes.xml
+* app\src\main\assets\data\PTModelObjectAssetCharacter.0.connections.xml
+* app\src\main\assets\data\PTModelObjectAssetLight.0.attributes.xml
+* app\src\main\assets\data\PTModelObjectAssetLight.0.connections.xml
+* app\src\main\assets\data\PTModelObjectAssetParticles.0.attributes.xml
+* app\src\main\assets\data\PTModelObjectAssetParticles.0.connections.xml
+* app\src\main\assets\data\PTModelObjectAssetParticlesEmitter.0.attributes.xml
+* app\src\main\assets\data\PTModelObjectAssetParticlesEmitter.0.connections.xml
+* app\src\main\assets\data\PTModelObjectAssetPowerup.0.attributes.xml
+* app\src\main\assets\data\PTModelObjectAssetPowerup.0.connections.xml
+* app\src\main\assets\data\PTModelObjectAssetPowerup.1.attributes.xml
+* app\src\main\assets\data\PTModelObjectAssetPowerup.1.connections.xml
+* app\src\main\assets\data\PTModelObjectAssetScreenJump.0.attributes.xml
+* app\src\main\assets\data\PTModelObjectAssetScreenJump.0.connections.xml
+* app\src\main\assets\data\PTModelObjectAssetUnit.0.attributes.xml
+* app\src\main\assets\data\PTModelObjectAssetUnit.0.connections.xml
+* app\src\main\assets\data\PTModelObjectAssetUnit.1.attributes.xml
+* app\src\main\assets\data\PTModelObjectAssetUnit.1.connections.xml
+* app\src\main\assets\data\PTModelObjectBackground.0.attributes.xml
+* app\src\main\assets\data\PTModelObjectBackground.0.connections.xml
+* app\src\main\assets\data\PTModelObjectButton.0.attributes.xml
+* app\src\main\assets\data\PTModelObjectButton.0.connections.xml
+* app\src\main\assets\data\PTModelObjectButtonControl.0.attributes.xml
+* app\src\main\assets\data\PTModelObjectButtonControl.0.connections.xml
+* app\src\main\assets\data\PTModelObjectButtonPowerup.0.attributes.xml
+* app\src\main\assets\data\PTModelObjectButtonPowerup.0.connections.xml
+* app\src\main\assets\data\PTModelObjectButtonSoundControl.0.attributes.xml
+* app\src\main\assets\data\PTModelObjectButtonSoundControl.0.connections.xml
+* app\src\main\assets\data\PTModelObjectButtonUrl.0.attributes.xml
+* app\src\main\assets\data\PTModelObjectButtonUrl.0.connections.xml
+* app\src\main\assets\data\PTModelObjectCharacterSelector.0.attributes.xml
+* app\src\main\assets\data\PTModelObjectCharacterSelector.0.connections.xml
+* app\src\main\assets\data\PTModelObjectEventObserver.0.attributes.xml
+* app\src\main\assets\data\PTModelObjectEventObserver.0.connections.xml
+* app\src\main\assets\data\PTModelObjectImage.0.attributes.xml
+* app\src\main\assets\data\PTModelObjectImage.0.connections.xml
+* app\src\main\assets\data\PTModelObjectLabel.0.attributes.xml
+* app\src\main\assets\data\PTModelObjectLabel.0.connections.xml
+* app\src\main\assets\data\PTModelObjectLoadingBar.0.attributes.xml
+* app\src\main\assets\data\PTModelObjectLoadingBar.0.connections.xml
+* app\src\main\assets\data\PTModelObjectLockButton.0.attributes.xml
+* app\src\main\assets\data\PTModelObjectLockButton.0.connections.xml
+* app\src\main\assets\data\PTModelScreen.0.attributes.xml
+* app\src\main\assets\data\PTModelScreen.0.connections.xml
+* app\src\main\assets\data\PTModelScreenScene.0.attributes.xml
+* app\src\main\assets\data\PTModelScreenScene.0.connections.xml
+* app\src\main\assets\data\PTModelSound.0.attributes.xml
+* app\src\main\assets\data\PTModelSound.0.connections.xml
+* app\src\main\assets\data\PTModelSprite.0.attributes.xml
+* app\src\main\assets\data\PTModelSprite.0.connections.xml
+* app\src\main\assets\data\PTModelSpriteContainer.0.attributes.xml
+* app\src\main\assets\data\PTModelSpriteContainer.0.connections.xml
+* app\src\main\assets\data\PTNodeScene.0.attributes.xml
+* app\src\main\assets\data\PTNodeScene.0.connections.xml
+* app\src\main\assets\data\PTNodeUI.0.attributes.xml
+* app\src\main\assets\data\PTNodeUI.0.connections.xml
+* app\src\main\assets\data\PTNodeUIStart.0.attributes.xml
+* app\src\main\assets\data\PTNodeUIStart.0.connections.xml
+* app\src\main\assets\data\atlases\
+* app\src\main\assets\data\atlases\Thumbs.db
+* app\src\main\assets\data\atlases\atlas_ID107.plist
+* app\src\main\assets\data\atlases\atlas_ID107.png
+* app\src\main\assets\data\atlases\atlas_ID9047.plist
+* app\src\main\assets\data\atlases\atlas_ID9047.png
+* app\src\main\assets\data\atlases\atlas_ID9089.plist
+* app\src\main\assets\data\atlases\atlas_ID9089.png
+* app\src\main\assets\data\fonts\
+* app\src\main\assets\data\fonts\PTModelFont_ID14667.fnt
+* app\src\main\assets\data\fonts\PTModelFont_ID14667.png
+* app\src\main\assets\data\fonts\PTModelFont_ID19565.fnt
+* app\src\main\assets\data\fonts\PTModelFont_ID19565.png
+* app\src\main\assets\data\fonts\PTModelFont_ID2.fnt
+* app\src\main\assets\data\fonts\PTModelFont_ID2.png
+* app\src\main\assets\data\fonts\PTModelFont_ID5538.fnt
+* app\src\main\assets\data\fonts\PTModelFont_ID5538.png
+* app\src\main\assets\data\fonts\PTModelFont_ID8439.fnt
+* app\src\main\assets\data\fonts\PTModelFont_ID8439.png
+* app\src\main\assets\data\fonts\PTModelFont_ID8923.fnt
+* app\src\main\assets\data\fonts\PTModelFont_ID8923.png
+* app\src\main\assets\data\fx\
+* app\src\main\assets\data\fx\flagMap.png
+* app\src\main\assets\data\fx\lightMap.png
+* app\src\main\assets\data\fx\trailMap.png
+* app\src\main\assets\data\images\
+* app\src\main\assets\data\images\PTModelSprite_ID1043.png
+* app\src\main\assets\data\images\PTModelSprite_ID1051.png
+* app\src\main\assets\data\images\PTModelSprite_ID1187.png
+* app\src\main\assets\data\images\PTModelSprite_ID2142.png
+* app\src\main\assets\data\images\PTModelSprite_ID2279.png
+* app\src\main\assets\data\images\PTModelSprite_ID8299.png
+* app\src\main\assets\data\images\PTModelSprite_ID8310.png
+* app\src\main\assets\data\images\Thumbs.db
+* app\src\main\assets\data\sounds\
+* app\src\main\assets\data\sounds\PTModelSound_ID10686.mp3
+* app\src\main\assets\data\sounds\PTModelSound_ID10687.mp3
+* app\src\main\assets\data\sounds\PTModelSound_ID10703.mp3
+* app\src\main\assets\data\sounds\PTModelSound_ID12087.mp3
+* app\src\main\assets\data\sounds\PTModelSound_ID12098.mp3
+* app\src\main\assets\data\sounds\PTModelSound_ID5651.mp3
+* app\src\main\assets\data\sounds\PTModelSound_ID5682.mp3
+* app\src\main\assets\default.png
+* app\src\main\java\
+* app\src\main\java\com\
+* app\src\main\java\com\dev\
+* app\src\main\java\com\dev\monstertruckmachinegun\
+* app\src\main\java\com\dev\monstertruckmachinegun\PTPlayer.java
+* app\src\main\java\com\secrethq\
+* app\src\main\java\com\secrethq\ads\
+* app\src\main\java\com\secrethq\ads\PTAdAdMobBridge.java
+* app\src\main\java\com\secrethq\ads\PTAdAppLovinBridge.java
+* app\src\main\java\com\secrethq\ads\PTAdChartboostBridge.java
+* app\src\main\java\com\secrethq\ads\PTAdFacebookBridge.java
+* app\src\main\java\com\secrethq\ads\PTAdHeyzapBridge.java
+* app\src\main\java\com\secrethq\ads\PTAdLeadBoltBridge.java
+* app\src\main\java\com\secrethq\ads\PTAdRevMobBridge.java
+* app\src\main\java\com\secrethq\store\
+* app\src\main\java\com\secrethq\store\PTStoreBridge.java
+* app\src\main\java\com\secrethq\store\util\
+* app\src\main\java\com\secrethq\store\util\Base64.java
+* app\src\main\java\com\secrethq\store\util\Base64DecoderException.java
+* app\src\main\java\com\secrethq\store\util\IabException.java
+* app\src\main\java\com\secrethq\store\util\IabHelper.java
+* app\src\main\java\com\secrethq\store\util\IabResult.java
+* app\src\main\java\com\secrethq\store\util\Inventory.java
+* app\src\main\java\com\secrethq\store\util\Purchase.java
+* app\src\main\java\com\secrethq\store\util\Security.java
+* app\src\main\java\com\secrethq\store\util\SkuDetails.java
+* app\src\main\java\com\secrethq\utils\
+* app\src\main\java\com\secrethq\utils\PTJniHelper.java
+* app\src\main\java\com\secrethq\utils\PTServicesBridge.java
+* app\src\main\java\org\
+* app\src\main\java\org\cocos2dx\
+* app\src\main\java\org\cocos2dx\lib\
+* app\src\main\java\org\cocos2dx\lib\Cocos2dxAccelerometer.java
+* app\src\main\java\org\cocos2dx\lib\Cocos2dxActivity.java
+* app\src\main\java\org\cocos2dx\lib\Cocos2dxBitmap.java
+* app\src\main\java\org\cocos2dx\lib\Cocos2dxETCLoader.java
+* app\src\main\java\org\cocos2dx\lib\Cocos2dxEditBoxDialog.java
+* app\src\main\java\org\cocos2dx\lib\Cocos2dxEditText.java
+* app\src\main\java\org\cocos2dx\lib\Cocos2dxGLSurfaceView.java
+* app\src\main\java\org\cocos2dx\lib\Cocos2dxHandler.java
+* app\src\main\java\org\cocos2dx\lib\Cocos2dxHelper.java
+* app\src\main\java\org\cocos2dx\lib\Cocos2dxLocalStorage.java
+* app\src\main\java\org\cocos2dx\lib\Cocos2dxMusic.java
+* app\src\main\java\org\cocos2dx\lib\Cocos2dxRenderer.java
+* app\src\main\java\org\cocos2dx\lib\Cocos2dxSound.java
+* app\src\main\java\org\cocos2dx\lib\Cocos2dxTextInputWraper.java
+* app\src\main\java\org\cocos2dx\lib\Cocos2dxTypefaces.java
+* app\src\main\jniLibs\
+* app\src\main\jniLibs\armeabi-v7a\
+* app\src\main\jniLibs\armeabi-v7a\libplayer.so
+* app\src\main\jniLibs\armeabi\
+* app\src\main\jniLibs\armeabi\libplayer.so
+* app\src\main\jniLibs\x86\
+* app\src\main\jniLibs\x86\libplayer.so
+* app\src\main\jni\
+* app\src\main\jni\Android.mk
+* app\src\main\jni\Application.mk
+* app\src\main\jni\list.sh
+* app\src\main\jni\main.cpp
+* app\src\main\res\
+* app\src\main\res\drawable-hdpi\
+* app\src\main\res\drawable-hdpi\.dummy
+* app\src\main\res\drawable-hdpi\icon.png
+* app\src\main\res\drawable-ldpi\
+* app\src\main\res\drawable-ldpi\.dummy
+* app\src\main\res\drawable-ldpi\icon.png
+* app\src\main\res\drawable-mdpi\
+* app\src\main\res\drawable-mdpi\.dummy
+* app\src\main\res\drawable-mdpi\icon.png
+* app\src\main\res\drawable-xhdpi\
+* app\src\main\res\drawable-xhdpi\.dummy
+* app\src\main\res\drawable-xhdpi\icon.png
+* app\src\main\res\drawable-xxhdpi\
+* app\src\main\res\drawable-xxhdpi\.dummy
+* app\src\main\res\drawable-xxhdpi\icon.png
+* app\src\main\res\drawable-xxxhdpi\
+* app\src\main\res\drawable-xxxhdpi\.dummy
+* app\src\main\res\drawable-xxxhdpi\Thumbs.db
+* app\src\main\res\drawable-xxxhdpi\icon.png
+* app\src\main\res\drawable\
+* app\src\main\res\drawable\icon.png
+* app\src\main\res\drawable\spacer.png
+* app\src\main\res\layout\
+* app\src\main\res\layout\main.xml
+* app\src\main\res\values\
+* app\src\main\res\values\strings.xml
+* app\src\main\resources\
+* app\src\main\resources\org\
+* app\src\main\resources\org\cocos2dx\
+* app\src\main\resources\org\cocos2dx\DISCLAIMER
+* build.gradle
+* build.xml
+* gradle\
+* gradle\wrapper\
+* gradle\wrapper\gradle-wrapper.jar
+* gradle\wrapper\gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* proguard-project.txt
+* settings.gradle
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+google-play-services_lib => [com.google.android.gms:play-services:+]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* jni\ => app\src\main\jni\
+* libs\armeabi-v7a\libplayer.so => app\src\main\jniLibs\armeabi-v7a\libplayer.so
+* libs\armeabi\libplayer.so => app\src\main\jniLibs\armeabi\libplayer.so
+* libs\dagger-1.2.2.jar => app\libs\dagger-1.2.2.jar
+* libs\javax.inject-1.jar => app\libs\javax.inject-1.jar
+* libs\nineoldandroids-2.4.0.jar => app\libs\nineoldandroids-2.4.0.jar
+* libs\support-v4-19.0.1.jar => app\libs\support-v4-19.0.1.jar
+* libs\x86\libplayer.so => app\src\main\jniLibs\x86\libplayer.so
+* lint.xml => app\lint.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+* src\com\android\vending\billing\IInAppBillingService.aidl => app\src\main\aidl\com\android\vending\billing\IInAppBillingService.aidl
+* src\org\cocos2dx\DISCLAIMER => app\src\main\resources\org\cocos2dx\DISCLAIMER
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

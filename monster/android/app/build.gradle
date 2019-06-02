@@ -1,0 +1,38 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion "28.0.1"
+
+    defaultConfig {
+        applicationId "com.dev.monstertruckmachinegun"
+        minSdkVersion 14
+        targetSdkVersion 28
+        multiDexEnabled true
+
+        ndk {
+            moduleName "player_shared"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+
+
+    }
+    sourceSets.main {
+        jni.srcDirs = []// <-- disable automatic ndk-build call
+    }
+}
+
+dependencies {
+    implementation  ('com.google.android.gms:play-services:11.8.0'){exclude module: 'support-v4'}
+    implementation  files('libs/dagger-1.2.2.jar')
+    implementation  files('libs/javax.inject-1.jar')
+    implementation  files('libs/nineoldandroids-2.4.0.jar')
+    implementation  ('com.android.support:multidex:1.0.3')
+}
